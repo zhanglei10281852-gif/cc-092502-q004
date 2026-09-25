@@ -1,0 +1,18 @@
+record_type,batch_code,sample_code,context_code,context_type,context_name,volume_liters,mesh_mm,sieve_notes,fraction,taxon_code,scientific_name,family,is_unknown,unknown_detail,confidence,count,detection_limit,polluted,pollution_note,notes
+batch,B01,,,,,,,,,,,,,,,,,,,
+sample,B01,S-CH-1,C1,paleochannel,古河道1号采样点,10,0.25,0.25mm 标准筛,,,,,,,,,,,,
+sample,B01,S-CH-2,C1,paleochannel,古河道1号采样点,5,0.25,,,,,,,,,,,,,
+sample,B01,S-DW-1,F1,dwelling,1号房址居住面,8,0.25,,,,,,,,,,,,,
+sample,B01,S-PIT-1,H1,pit,H1 灰坑,4,0.35,粗筛复拣,,,,,,,,,,,,
+sample,B01,S-PIT-2,H1,pit,H1 灰坑,4,0.35,,,,,,,,,,,1,表层现代根系侵入,
+fraction,,S-CH-1,,,,,,,light,,,,,,,,,,,
+fraction,,S-CH-2,,,,,,,light,,,,,,,,,,,
+fraction,,S-DW-1,,,,,,,light,,,,,,,,,,,
+fraction,,S-PIT-1,,,,,,,light,,,,,,,,,,,
+fraction,,S-PIT-2,,,,,,,light,,,,,,,,,,,
+identification,,S-CH-1,,,,,,,light,SETARIA,Setaria italica,禾本科,0,,high,20,0.5,,,
+identification,,S-CH-2,,,,,,,light,SETARIA,Setaria italica,禾本科,0,,medium,<3,0.5,,,仅知上限：至多 2 粒
+identification,,S-DW-1,,,,,,,light,SETARIA,Setaria italica,禾本科,0,,high,40,,,,
+identification,,S-PIT-1,,,,,,,light,SETARIA,Setaria italica,禾本科,0,,high,nd,0.5,,,低于检测限，未检出
+identification,,S-PIT-2,,,,,,,light,SETARIA,Setaria italica,禾本科,0,,high,nd,0.5,,,低于检测限，未检出
+identification,,S-PIT-1,,,,,,,light,UNKNOWN-CARYOPSIS,,禾本科,1,疑似禾本科颖果，无法定种,uncertain,2,,,,
