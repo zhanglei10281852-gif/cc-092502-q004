@@ -7,7 +7,7 @@ name = "archaeology-research-foundation"
 version = "1.0.0"
 description = "考古研究协作基础后端"
 requires-python = ">=3.11"
-dependencies = ["fastapi==0.115.8", "uvicorn==0.34.0", "pydantic==2.10.6"]
+dependencies = ["fastapi==0.115.8", "uvicorn==0.34.0", "pydantic==2.10.6", "python-multipart==0.0.20"]
 
 [project.optional-dependencies]
 dev = ["httpx==0.28.1", "pytest==8.3.5"]

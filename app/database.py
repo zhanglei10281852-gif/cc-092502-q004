@@ -114,7 +114,10 @@ def close_connection() -> None:
 
 
 def init_db() -> None:
-    connection().executescript(SCHEMA)
+    db = connection()
+    db.executescript(SCHEMA)
+    from app.paleo.schema import PALEO_SCHEMA
+    db.executescript(PALEO_SCHEMA)
 
 
 @contextmanager
